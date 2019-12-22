@@ -127,3 +127,14 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#########################
+## shell
+hdparm-tests.out
+
+random-read-test-aio.out
+random-read-test.out
+
+random-read-test_libaio.out
+random-read-test_psync.out
+

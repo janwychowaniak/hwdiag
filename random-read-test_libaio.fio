@@ -1,0 +1,11 @@
+; random read of 128mb of data with libaio
+
+[random-read]
+rw=randread
+size=128m
+
+ioengine=libaio
+iodepth=8
+direct=1
+invalidate=1
+
